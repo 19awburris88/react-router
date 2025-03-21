@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Routes, Route, Link } from "react-router-dom";
 import './App.css'
 import Navbar from "./components/navbar";
-// import Footer from "./components/footer";
+import Footer from "./components/footer";
 import Home from "./components/home";
 import Blue from "./components/blue";
 import Red from "./components/red";
@@ -28,7 +28,7 @@ function App() {
         <Route path="/pink" element={<Pink />} />
       </Routes>
 
-      <footer />
+      <Footer />
     </div>
   )
 }

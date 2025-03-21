@@ -1,6 +1,6 @@
 export default function Black() {
     return (
-      <div className="black">
+      <div className="black full-page">
         <h1>BLACK</h1>
       </div>
     );

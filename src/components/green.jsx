@@ -1,9 +1,7 @@
-function Green() {
+export default function Green() {
   return (
-    <div>
-      <h1>Green</h1>
+    <div className="green full-page">
+      <h1>GREEN</h1>
     </div>
   );
 }
-
-export default Green;
